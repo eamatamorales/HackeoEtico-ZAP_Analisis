@@ -115,6 +115,12 @@ Sugerencia de prompt:
 ```text
 Estoy auditando el sitio http://$HOSTIP:5050. Ya corrí nmap, curl y gobuster. ¿Qué debería revisar a continuación? Sugiere pruebas específicas para formularios o cabeceras.
 ```
+#### 1.3 Análisis ZAP
+
+**a. Ejecuta, desde Kali VM, ZAP GUI para correr prueba de vulnerabilidades:**
+```bash
+zaproxy &
+```
 
 ---
 
@@ -146,6 +152,13 @@ gobuster dir -u http://$HOSTIP:8081 -w /usr/share/wordlists/dirb/common.txt
 **c. KaliGPT para pruebas adicionales:**
 ```text
 Estoy analizando http://$HOSTIP:8081. ¿Cuáles son los puntos de entrada más críticos? Dime pruebas de XSS o SQLi específicas que debería intentar.
+```
+
+#### 2.3 Análisis ZAP
+
+**a. Ejecuta, desde Kali VM, ZAP GUI para correr prueba de vulnerabilidades:**
+```bash
+zaproxy &
 ```
 
 ---
